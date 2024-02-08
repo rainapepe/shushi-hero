@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://vh63yis4q04e"]
+
+[ext_resource type="PackedScene" uid="uid://cqymtkxjxm4eg" path="res://interface/scenes/settings_container.tscn" id="1_gqask"]
+[ext_resource type="PackedScene" uid="uid://bgc8dgchmk53r" path="res://interface/scenes/fps_container.tscn" id="2_lx4v4"]
+[ext_resource type="PackedScene" uid="uid://c7dj8r2itt6sh" path="res://interface/scenes/containers/fridge_container.tscn" id="3_jf2ix"]
+
+[node name="Gui" type="CanvasLayer"]
+process_mode = 3
+
+[node name="FpsContainer" parent="." instance=ExtResource("2_lx4v4")]
+visible = false
+
+[node name="SettingsContainer" parent="." node_paths=PackedStringArray("fps") instance=ExtResource("1_gqask")]
+visible = false
+fps = NodePath("../FpsContainer")
+
+[node name="FridgeContainer" parent="." instance=ExtResource("3_jf2ix")]
+visible = false

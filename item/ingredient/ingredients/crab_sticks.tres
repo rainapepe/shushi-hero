@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://d0h2snyx3sc32"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_ey4a2"]
+[ext_resource type="Texture2D" uid="uid://b7r2a253f8qim" path="res://item/ingredient/assets/crab_sticks.png" id="2_0vo25"]
+
+[resource]
+script = ExtResource("1_ey4a2")
+name = "Crab Sticks"
+price = 12.0
+texture = ExtResource("2_0vo25")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://d130wr2c81mva"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_by4le"]
+[ext_resource type="Texture2D" uid="uid://cqflbrkdyfah3" path="res://item/ingredient/assets/avocado.png" id="2_6xow6"]
+
+[resource]
+script = ExtResource("1_by4le")
+name = "Avocado"
+price = 3.0
+texture = ExtResource("2_6xow6")

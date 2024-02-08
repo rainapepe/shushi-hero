@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://fn0ramo4cr52"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_chx41"]
+[ext_resource type="Texture2D" uid="uid://pbmexqnfe68t" path="res://item/ingredient/assets/sliced_cucumber.png" id="2_2bf2e"]
+
+[resource]
+script = ExtResource("1_chx41")
+name = "Sliced Cucumber"
+price = 3.0
+texture = ExtResource("2_2bf2e")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://fjme58q4plo2"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_u82g2"]
+[ext_resource type="Texture2D" uid="uid://cgu5wm3mugle8" path="res://item/ingredient/assets/ebi.png" id="2_6odpt"]
+
+[resource]
+script = ExtResource("1_u82g2")
+name = "Ebi"
+price = 7.0
+texture = ExtResource("2_6odpt")

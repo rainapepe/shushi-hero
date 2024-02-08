@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://ds48g88t5oqi4"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_66hqe"]
+[ext_resource type="Texture2D" uid="uid://bx7scbusrc8an" path="res://item/ingredient/assets/salmon.png" id="2_hkfod"]
+
+[resource]
+script = ExtResource("1_66hqe")
+name = "Salmon"
+price = 20.0
+texture = ExtResource("2_hkfod")

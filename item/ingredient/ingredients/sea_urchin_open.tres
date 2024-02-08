@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://c27dj2535l18v"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_ooer4"]
+[ext_resource type="Texture2D" uid="uid://dpce2y246bypq" path="res://item/ingredient/assets/sea_urchin_open.png" id="2_gnfe0"]
+
+[resource]
+script = ExtResource("1_ooer4")
+name = "Sea Urchin Open"
+price = 1.5
+texture = ExtResource("2_gnfe0")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://cxoob2w8qa34x"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_ort67"]
+[ext_resource type="Texture2D" uid="uid://ctxmorrc1t02t" path="res://item/ingredient/assets/nori.png" id="2_46wat"]
+
+[resource]
+script = ExtResource("1_ort67")
+name = "Nori"
+price = 3.0
+texture = ExtResource("2_46wat")

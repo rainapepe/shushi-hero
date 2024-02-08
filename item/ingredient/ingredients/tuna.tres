@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=4 format=3 uid="uid://begf7b1v1bwnj"]
+
+[ext_resource type="Resource" uid="uid://doxkqvp14qr5c" path="res://item/ingredient/ingredients/fish_fillet.tres" id="1_6s7nw"]
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_m683g"]
+[ext_resource type="Texture2D" uid="uid://dna5a6k1kt8fe" path="res://item/ingredient/assets/tuna.png" id="3_ryer6"]
+
+[resource]
+script = ExtResource("1_m683g")
+prepared_ingredient = ExtResource("1_6s7nw")
+name = "Tuna"
+price = 16.0
+texture = ExtResource("3_ryer6")

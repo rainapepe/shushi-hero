@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://bm57liuhlor0m"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_csv8o"]
+[ext_resource type="Texture2D" uid="uid://baicnn3rshi7f" path="res://item/ingredient/assets/tentacle.png" id="2_wed1b"]
+
+[resource]
+script = ExtResource("1_csv8o")
+name = "Tentacle"
+price = 30.0
+texture = ExtResource("2_wed1b")

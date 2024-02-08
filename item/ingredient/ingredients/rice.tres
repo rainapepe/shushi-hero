@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://c1rahldkm4ext"]
+
+[ext_resource type="Script" path="res://item/ingredient/ingredient.gd" id="1_i3vwb"]
+[ext_resource type="Texture2D" uid="uid://cofhaoi8t2ohn" path="res://item/ingredient/assets/rice.png" id="2_b8huv"]
+
+[resource]
+script = ExtResource("1_i3vwb")
+name = "Rice"
+price = 5.0
+texture = ExtResource("2_b8huv")
